@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Task Scheduler</title>
+</head>
+
+<body>
+<nav>
+    <ul>
+        <li><a href="#">AMICA</a></li>
+        <li><a href="#">MARKETING/PR</a></li>
+        <li><a href="#">Bible Verse</a></li>
+        <li><a href="#">OR </a></li>
+        <li><a href="#">Prayer</a></li>
+    </ul>
+</nav>
+    <div class="container">
+        <h1>Task Scheduler &#x1F60A;</h1><sup>by:Eng.Joel Habisayas Juma</sup>
+        <div class="input-section">
+            <label for="name">Enter Names:</label>
+            <input type="text" id="name" placeholder="Enter names, separated by commas">
+        </div>
+        <div class="input-section">
+            <label>Select Days:</label>
+            <div class="checkbox-group">
+                <input type="checkbox" id="monday" value="Monday"> <label for="monday">Monday</label>
+                <input type="checkbox" id="tuesday" value="Tuesday"> <label for="tuesday">Tuesday</label>
+                <input type="checkbox" id="wednesday" value="Wednesday"> <label for="wednesday">Wednesday</label>
+                <input type="checkbox" id="thursday" value="Thursday"> <label for="thursday">Thursday</label>
+                <input type="checkbox" id="friday" value="Friday"> <label for="friday">Friday</label>
+                <input type="checkbox" id="saturday" value="Saturday"> <label for="saturday">Saturday</label>
+                <input type="checkbox" id="sunday" value="Sunday"> <label for="sunday">Sunday</label>
+            </div>
+        </div>
+        <button id="schedule-button">Schedule</button>
+        <div id="output" class="output-section">
+            <!-- Display scheduled tasks here -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

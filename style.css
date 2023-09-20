@@ -1,0 +1,88 @@
+/* Reset some default styles for the navigation */
+nav {
+    background-color: royalblue;
+    /* Set background color to royal blue */
+    overflow: hidden;
+    
+}
+
+/* Style the navigation links */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    /* Center-align the links */
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Style the links in the navigation */
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    /* Add padding to the links */
+}
+
+nav a:hover {
+    background-color: #ff9900;
+    /* Change background color on hover */
+    color: white;
+    transition: background-color 0.3s;
+    /* Smooth transition */
+}
+
+/* Style the content area */
+.content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.content h1 {
+    font-size: 24px;
+}
+
+.content p {
+    font-size: 16px;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.input-section {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.output-section {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
